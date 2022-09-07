@@ -1,0 +1,33 @@
+body {
+  background-color: #606db2;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #606db2;
+  color: white;
+}
+
+h2 {
+  padding: 2rem;
+  margin: 1rem auto;
+}
+h4 {
+  margin: 2rem auto;
+}
+input {
+  background-color: lightgrey;
+  outline: none;
+  border: none;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
+input::placeholder {
+  color: gray;
+  text-decoration-color: black;
+  text-align: center;
+}
+span {
+  padding: 0.3rem;
+  font-size: 1.5rem;
+}
