@@ -53,6 +53,38 @@ function App() {
           </span>
         );
       })}
+      <footer className="footer">
+        <div className="footer-text">{"Let's connect"}</div>
+        <ul className="link-list">
+          <li>
+            <a
+              href="https://twitter.com/Kaushal53362050"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/kaushal95"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/kaushal-kumar-019952170"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
